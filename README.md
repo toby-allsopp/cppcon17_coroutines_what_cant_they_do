@@ -16,7 +16,7 @@ Coroutines are coming. They're coming for your asynchronous operations. They're 
 
 ## Abstract (boring version)
 
-The Coroutines Technical Specification is an experimental extension to the C++ language that provides new options for control flow, with the primary aim of simplifying codes that invokes asynchronous operations. We present a short introduction to Coroutines followed by some possibly non-obvious ways to use them outside of their primary domain. 
+The Coroutines Technical Specification is an experimental extension to the C++ language that allows functions to be suspended and resumed, with the primary aim of simplifying code that invokes asynchronous operations. We present a short introduction to Coroutines followed by some possibly non-obvious ways they can help to simplify your code.
 
 ## Outline
 
