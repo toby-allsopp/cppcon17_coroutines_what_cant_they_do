@@ -18,16 +18,24 @@ Coroutines are coming. They're coming for your asynchronous operations. They're 
 
 The Coroutines Technical Specification is an experimental extension to the C++ language that allows functions to be suspended and resumed, with the primary aim of simplifying code that invokes asynchronous operations. We present a short introduction to Coroutines followed by some possibly non-obvious ways they can help to simplify your code.
 
+Have you ever wanted to elegantly compose operations that might fail? Coroutines can help. Have you ever wished for a zero-overhead type-erased function wrapper? Coroutines can help. We show you how and more.
+
 ## Outline
 
-### Part 1. Introduction 
-* Introduction to Coroutines 
-* Generators 
-* Async 
+### Part 1. Introduction
+* Introduction to Coroutines
+* Generators
+* Async
 ### Part 2. Weird and Wacky 
-* Expected 
-* Std::function 
-* Lazy values 
+* Expected
+  * Try to stay neutral on the various competing implementations 
+* Type erasure
+  * Gor's function thingy
+* Wrapping function entry/exit
+  * Instead of suspending, just log
 ### Part 3. Speculative Extensions 
-* Cloning 
+* Cloning - not yet proven feasible
+  * List comprehensions
+  * Go Full Monad!
 * Stackfullness
+  * Maybe point out problems with hidden suspensions?
